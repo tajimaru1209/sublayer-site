@@ -1,0 +1,16 @@
+:root{--bg:#0B1220;--ink:#EEF2F8;--sub:#8C98B0;--accent:#8FD3FF;--card:#111A2C;--line:rgba(255,255,255,.08)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% -10%,#1A2A47 0,#0B1220 60%) fixed;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;line-height:1.8;font-size:16px}
+main{max-width:720px;margin:0 auto;padding:32px 16px 48px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+header img{width:64px;height:64px;border-radius:15px;box-shadow:0 4px 18px rgba(0,0,0,.5)}
+h1{font-size:26px;margin:0}
+h2{font-size:20px;margin:40px 0 10px;padding-left:12px;border-left:4px solid var(--accent)}
+h3{font-size:16px;margin:20px 0 4px}
+p,li{margin:6px 0;color:#D5DCE8}
+.lead{font-size:17px;color:var(--ink)}
+.note{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.lang{display:inline-block;margin-top:6px;font-size:14px}
+a{color:var(--accent)}
+small,footer{color:var(--sub)}
+footer{margin-top:40px;font-size:13px}
